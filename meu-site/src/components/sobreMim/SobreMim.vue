@@ -34,5 +34,6 @@ export default {
 <style>
 #sobreMim{
     text-align: center;
+    margin-top: 15px;
 }
 </style>
