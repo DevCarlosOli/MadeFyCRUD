@@ -4,26 +4,7 @@
             <h1>Seja bem-vindo!</h1>
             <p>Sou <strong>Desenvolvedor .Net</strong>, apaixonado por jogos e tecnologia. Procuro sempre me especializar na área para poder melhorar minhas oportunidades de crescimento. Sou graduado em <strong>Análise e Desenvolvimento de Sistemas</strong> pela Unip e pós-graduado <strong>MBA - Engenharia de Software</strong> pela Faculdade Metropolitana. Principais conhecimentos: <strong>BoostStrap</strong>, <strong>JavaScript</strong>, <strong>Vue.js</strong>, <strong>C#</strong>, <strong>SQL</strong>, <strong>Git</strong>, <strong>SVN</strong>, <strong>CorelDRAW</strong>, <strong>PhotoShop</strong> </p>
         </span>
-    </div>
-    <div class="container-fluid mt-3">
-        <div class="row">
-            <h3>Principais Destaques</h3>
-            <div class="col-sm d-flex flex-wrap justify-content-around">
-                <div class="col-sm-4 d-flex flex-wrap justify-content-center p-2 conteudo-portfolio">
-                    <div class="img-portfolio"></div>
-                    <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
-                </div>
-                <div class="col-sm-4 d-flex flex-wrap justify-content-center p-2 conteudo-portfolio">
-                    <div class="img-portfolio"></div>
-                    <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
-                </div>
-                <div class="col-sm-4 d-flex flex-wrap justify-content-center p-2 conteudo-portfolio">
-                    <div class="img-portfolio"></div>
-                    <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
-                </div>
-            </div>            
-        </div>
-    </div>
+    </div>    
 </template>
 
 <script>
@@ -35,17 +16,17 @@
 <style scoped>
     #banner-main{
         background-image: url('../../public/img/banner.png');
-        background-position: 0 -230px;
+        background-position: 0 -180px;
         background-size: cover;
         background-repeat: no-repeat;
-        height: 90vh;
+        height: 100vh;
         color: #fff;
         transition: ease 0.5s;
     }
 
     #banner-main h1{
         margin-left: 80px;
-        margin-top: 90px;
+        margin-top: 130px;
         transition: ease 0.5s;
     }
 
@@ -55,18 +36,6 @@
         width: 400px;
         text-align: justify;
         transition: ease 0.5s;
-    }
-
-    .conteudo-portfolio p{
-        text-align: justify;
-    }
-
-    .img-portfolio{
-        height: 300px;
-        width: 300px;
-        background-color: red;
-        margin-top: 15px;
-        border-radius: 8px;
     }
 
     /* MediaQuery */

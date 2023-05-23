@@ -3,7 +3,7 @@
     <div class="container-fluid">
         <div class="row">
             <div class="col">
-                <p id="footer">{{ msg }}</p>
+                <p id="footer">&copy; {{ msg }}</p>
             </div>
         </div>        
     </div>
@@ -14,7 +14,7 @@ export default {
     name: "Footer",
     data() {
         return {
-            msg: 'Site Pessoal - 2023'
+            msg: '2023 - Carlos R. de Oliveira Filho'
         }
     },
 }

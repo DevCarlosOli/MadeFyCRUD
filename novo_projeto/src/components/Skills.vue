@@ -25,9 +25,7 @@ export default {
 
 <style>
     .logo-skills{
-        margin-left: 15px;
-        margin-right: 15px;
-        margin-top: 10px;
+        margin: 15px;
         height: 80px;
         width: 80px;
     }

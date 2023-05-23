@@ -43,7 +43,7 @@ export default {
 
 <style scoped>
 .mediaSocial a{
-    margin-left: 10px;
+    margin-left: 15px;
     color: #fff;
 }
 .mediaSocial #whatsapp :hover{
