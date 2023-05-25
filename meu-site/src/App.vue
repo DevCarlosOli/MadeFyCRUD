@@ -1,13 +1,14 @@
 <template>
-  <Header />  
+  <Header />
+  <router-view />
   <SobreMim />
   <Footer />
 </template>
 
 <script>
-import Header from './components/Header.vue'
+import Header from './views/Header.vue'
 import SobreMim from './components/sobreMim/SobreMim.vue'
-import Footer from './components/Footer.vue'
+import Footer from './views/Footer.vue'
 
 export default {
   name: 'App',
