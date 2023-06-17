@@ -46,19 +46,19 @@ export default {
     margin-left: 15px;
     color: #fff;
 }
-.mediaSocial #whatsapp :hover{
+.mediaSocial #whatsapp:hover{
     color: rgb(51, 190, 137);
     transition: 0.5s;
 }
-.mediaSocial #email :hover{
+.mediaSocial #email:hover{
     color: rgb(206, 44, 44);
     transition: 0.5s;
 }
-.mediaSocial #linkedin :hover{
+.mediaSocial #linkedin:hover{
     color: rgb(51, 100, 190);
     transition: 0.5s;
 }
-.mediaSocial #github :hover{
+.mediaSocial #github:hover{
     color: rgb(140, 77, 223);
     transition: 0.5s;
 }

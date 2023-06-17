@@ -40,12 +40,9 @@
 
     /* MediaQuery */
     @media only screen and (max-width: 1195px) {
-        #banner-main{
-            height: 65vh;
-        }
 
         #banner-main h1{
-            margin-left: 60px;
+            margin-left: 40px;
         }
         #banner-main p{
             margin-left: 25px;
@@ -56,9 +53,6 @@
     }
 
     @media only screen and (max-width: 1090px) {
-        #banner-main{
-            height: 70vh;
-        }
 
         #banner-main h1{
             margin-top: 80px;
@@ -81,13 +75,13 @@
         #banner-main{
             background-position: -400px -230px;
             background-size: 1000px;
-            height: 65vh;
+            height: 60vh;
         }
 
         #fundo-texto{
-            width: 500px;
+            width: 100%;
             background-color: rgba(0, 0, 0, 0.7);
-            height: 65vh;
+            height: 55vh;
         }
 
         #banner-main h1{
@@ -99,6 +93,36 @@
             margin-left: 25px;
             margin-top: 10px;
             width: 425px;
+            text-align: justify;
+        }
+    }
+
+    @media only screen and (max-width: 462px){        
+        #banner-main h1{
+            margin-left: 90px;
+        }
+
+        #banner-main p{
+            margin-left: 25px;
+            margin-top: 10px;
+            width: 350px;
+            text-align: justify;
+        }
+    }
+
+    @media only screen and (max-width: 375px){
+        #banner-main{
+            background-position: -480px -130px;
+        }
+        
+        #banner-main h1{
+            margin-left: 90px;
+        }
+
+        #banner-main p{
+            margin-left: 25px;
+            margin-top: 10px;
+            width: 320px;
             text-align: justify;
         }
     }

@@ -38,4 +38,10 @@ export default {
         margin-top: 15px;
         border-radius: 8px;
     }
+
+    @media only screen and (max-width: 500px) {
+        .img-portfolio{
+            width: 100%;
+        }
+    }
 </style>
