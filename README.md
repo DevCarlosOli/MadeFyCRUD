@@ -25,9 +25,8 @@
  <a href="#features">Features</a> •
  <a href="#revised-concepts">Revised Concepts</a> • 
  <a href="#installation">Installation</a> • 
- <a href="#getting-started">Get Started</a> • 
  <a href="#technologies">Technologies</a> • 
- <a href="#license">License</a>
+ <a href="#bonus">Bonus</a>
 </p>
 
 ## 📌About
@@ -87,3 +86,26 @@ Basta esperar e um terminal irá abrir o projeto local.
 
 - System.Data.SqlClient
 
+## 🎇Bonus
+**Script para criação das tabelas da base de dados**
+
+-- Script para criação da tabela Categoria <br/>
+CREATE TABLE Categoria ( <br/>
+    ID INT IDENTITY(1,1) PRIMARY KEY, <br/> 
+    Nome NVARCHAR(100) NOT NULL, <br/> 
+    DataCadastro DATETIME NOT NULL, <br/> 
+    DataAtualizacao DATETIME NOT NULL <br/>
+);
+
+-- Script para criação da tabela Produto <br/>
+CREATE TABLE Produto ( <br/>
+    ID INT IDENTITY(1,1) PRIMARY KEY, <br/> 
+    Nome NVARCHAR(100) NOT NULL, <br/> 
+    Descricao NVARCHAR(200) NOT NULL, <br/> 
+    Preco DECIMAL(18, 2) NOT NULL, <br/> 
+    Quantidade INT NOT NULL, <br/> 
+    CategoriaID INT NOT NULL, <br/> 
+    DataCadastro DATETIME NOT NULL, <br/> 
+    DataAtualizacao DATETIME NOT NULL, <br/> 
+    FOREIGN KEY (CategoriaID) REFERENCES Categoria(ID) <br/>
+);
